@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IAS", "IAS\IAS.csproj", "{BC31C1F6-A75C-4FEE-A3CD-6B007298550E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC31C1F6-A75C-4FEE-A3CD-6B007298550E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC31C1F6-A75C-4FEE-A3CD-6B007298550E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC31C1F6-A75C-4FEE-A3CD-6B007298550E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC31C1F6-A75C-4FEE-A3CD-6B007298550E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2A87547-5B7A-4669-8C37-94B15BA7F8D4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://arttfs.artdata.slu.se/tfs/defaultcollection
+		SccProjectUniqueName0 = IAS\\IAS.csproj
+		SccProjectName0 = IAS
+		SccLocalPath0 = IAS
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal
