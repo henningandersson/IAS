@@ -1,0 +1,335 @@
+/* Variablerna definierar Designsystemets färger, skuggor och textfärger */
+/* SIGNALFÄRGER */
+$adb-signal-blue: #5BC0DE;
+$adb-signal-green: #5CB85C;
+$adb-signal-red: #D9534F;
+$adb-signal-orange: #F0AD4E;
+
+/* Accent och bakgrundsfärger */
+$adb-accent-blue: #4D7AA3;
+$adb-accent-darkblue: #385876;
+$adb-bgcolor-white: #fff;
+$adb-bgcolor-whiteblue: #F6F7F9;
+$adb-bgcolor-greyblue: #E9EBEE;
+
+/* Komplementfärger */
+$adb-complement-blue: #4D99B3;
+$adb-complement-lime: #BFCC59;
+$adb-complement-green: #59A626;
+$adb-complement-brown: #998026;
+$adb-complement-purple: #B33366;
+
+
+/* TEXTFÄRGER */
+$adb-text-white: #fff !default;
+$adb-text-black: #000 !default;
+$adb-text-black71: rgba(0, 0, 0, 0.71) !default;
+$adb-text-black50: rgba(0, 0, 0, 0.5) !default;
+
+/* Skuggningar */
+$adb-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 0px;
+$adb-shadow-light: rgba(0, 0, 0, 0.5) 0px 0px 1px 0px;
+
+/* Notera font-family "Roboto" */
+body {
+    background-color: #ebebeb;
+    font-family: "Roboto", Roboto, "Helvetica Neue",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: $adb-text-black71;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: 500;
+}
+
+h1.logo {
+    color: $adb-text-black50;
+    font-size: $h2-font-size; /* Variabel från Bootstrap */
+}
+
+main {
+    background-color: #fff;
+    border-radius: $border-radius; /* Variabel från Bootstrap */
+    box-shadow: $adb-shadow;
+    margin-bottom: 2em;
+}
+
+.nav-pills .nav-link.active {
+    box-shadow: $adb-shadow-light;
+    color: $adb-text-black;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.nav-pills a.nav-link {
+    color: $adb-text-black71;
+}
+
+.nav-pills a.nav-link:hover {
+    color: $adb-text-black;
+}
+
+
+.adb-colorbox {
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.adb-bgcolor-accent-blue {
+    background-color: $adb-accent-blue;
+    color: #fff;
+}
+
+.adb-bgcolor-accent-darkblue {
+    background-color: $adb-accent-darkblue;
+    color: #fff;
+}
+
+.adb-bgcolor-white {
+    background-color: $adb-bgcolor-white;
+    border: 1px solid #000;
+}
+
+.adb-bgcolor-whiteblue {
+    background-color: $adb-bgcolor-whiteblue;
+}
+
+.adb-bgcolor-greyblue {
+    background-color: $adb-bgcolor-greyblue;
+}
+
+.adb-bgcolor-black {
+    background-color: $adb-text-black;
+    color: #fff;
+}
+
+.adb-bgcolor-darkgrey {
+    background-color: $adb-text-black71;
+    color: #fff;
+}
+
+.adb-bgcolor-grey {
+    background-color: $adb-text-black50;
+    color: #fff;
+}
+
+
+.adb-bgcolor-signal-blue {
+    background-color: $adb-signal-blue;
+}
+
+.adb-bgcolor-signal-green {
+    background-color: $adb-signal-green;
+}
+
+.adb-bgcolor-signal-orange {
+    background-color: $adb-signal-orange;
+}
+
+.adb-bgcolor-signal-red {
+    background-color: $adb-signal-red;
+}
+
+.adb-bgcolor-complement-blue {
+    background-color: $adb-complement-blue;
+}
+
+.adb-bgcolor-complement-green {
+    background-color: $adb-complement-green;
+}
+
+.adb-bgcolor-complement-lime {
+    background-color: $adb-complement-lime;
+}
+
+.adb-bgcolor-complement-brown {
+    background-color: $adb-complement-brown;
+}
+
+.adb-bgcolor-complement-purple {
+    background-color: $adb-complement-purple;
+}
+
+/* Special-CSS för att behålla Aspect Ratio vid skalning av bilder (responsivitet) 
+[style*="--aspect-ratio"] > :first-child {
+    width: 100%;
+}
+
+[style*="--aspect-ratio"] > img {
+    height: auto;
+}
+
+[style*="--aspect-ratio"] > figcaption {
+    z-index: 100;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 1px #fff, 0 0 25px #fff;
+}
+
+@supports (--custom:property) {
+    [style*="--aspect-ratio"] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    [style*="--aspect-ratio"]::before {
+        content: "";
+        display: block;
+        padding-bottom: calc(100% / (var(--aspect-ratio)));
+    }
+
+    [style*="--aspect-ratio"] > :first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}
+  */
+
+
+
+/* KNAPPAR OCH DROPDOWNS */
+.btn-primary {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    background-color: $adb-accent-blue;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.80);
+    background-color: $adb-accent-darkblue;
+}
+
+.btn-primary:active, .btn-primary.active {
+    box-shadow: inset 0 0px 10px 0 rgba(0,0,0,1);
+    background-color: $adb-accent-blue;
+}
+
+.btn-primary.disabled, .btn-primary:disabled,
+.btn-secondary.disabled, .btn-secondary:disabled {
+    color: $adb-text-black71;
+    background-color: #fff;
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+/* Detta är ett tillägg till Bootstraps dropdown komponent för att få ett specifikt beteende. Dropdowns ärver annars från knappar. */
+.dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+}
+
+.show > .btn-link.dropdown-toggle,
+.btn-link .dropdown-toggle {
+    border: 1px solid #fff;
+    color: $adb-text-black71;
+}
+
+.btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $adb-accent-blue;
+    background-image: none;
+    border-color: $adb-accent-darkblue;
+}
+
+.btn-group:not(.btn-group-dropdown), .btn-group-vertical {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 3px;
+}
+
+.btn-group > .btn, .btn-group-vertical > .btn {
+    border: none;
+}
+
+.btn-group-dropdown > .btn:hover:not(.btn-link, .btn-primary) {
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.80);
+    background-color: $adb-bgcolor-greyblue;
+}
+
+.btn-group > .btn:focus:not(.btn-link, .btn-primary),
+.btn-group > .btn:active:not(.btn-link, .btn-primary),
+.btn-group > .btn.active:not(.btn-link, .btn-primary),
+.btn-group-vertical > .btn:focus:not(.btn-link, .btn-primary),
+.btn-group-vertical > .btn:active:not(.btn-link, .btn-primary),
+.btn-group-vertical > .btn.active:not(.btn-link, .btn-primary) {
+    box-shadow: inset 0 0px 10px 0 rgba(0,0,0,1);
+    color: $adb-text-white;
+    background-color: $adb-text-black50;
+}
+
+/* NAVIGATION */
+.breadcrumb {
+    background-color: #fff;
+}
+
+.breadcrumb-secondary {
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 3px;
+}
+
+.nav-tabs .nav-link {
+    background-color: $adb-bgcolor-whiteblue;
+}
+
+.nav-tabs .nav-item {
+    margin-left: 3px;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link.disabled {
+    border: 1px solid transparent;
+    border-color: #eceeef #eceeef #ddd;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+
+.nav-tabs .nav-link.disabled {
+    background-color: $adb-bgcolor-whiteblue;
+}
+
+.nav-tabs-content {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 3px;
+}
+
+.nav-tabs-secondary-content {
+    background-color: $adb-bgcolor-greyblue;
+}
+
+.nav-tabs-secondary .nav-link.active,
+.nav-tabs-secondary .nav-item.show .nav-link {
+    color: #464a4c;
+    background-color: $adb-bgcolor-greyblue;
+    border-color: #ddd #ddd;
+    border-bottom-color: $adb-bgcolor-greyblue;
+}
+
+/* ALERT */
+.alert {
+    border: none !important;
+    margin-bottom: 0.5rem;
+}
+
+.alert strong .fa {
+    padding-right: 5px;
+}
+
+
+/* MODALS */
+.modal-header,
+.modal-footer {
+    border: none;
+}

@@ -1,0 +1,124 @@
+#appContainer {
+    max-width: 1408px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* TEMP Key */
+iframe {
+    width:100%;
+    min-height:800px;
+}
+
+
+/* TEMP Search */
+.pageInfoContainer {
+    padding: 1rem;
+}
+.pageInfoContainer li.dropdown {
+    padding-right: 1rem;
+}
+ul.checkboxDropdown {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    white-space:nowrap;
+}
+.body-content table {
+    font-size: 0.8rem;
+}
+
+
+/* TEMP Breadcrumbs */
+.breadcrumb {
+    font-size: 0.8rem;
+    background: none;
+}
+#taxonomyBreadcrumb > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#taxonomyBreadcrumb > ul > li {
+    display: inline-block;
+    padding: 0 0.5rem 0 0;
+}
+#taxonomyBreadcrumb ul li {
+    margin: 0;    
+}
+#taxonomyBreadcrumb ul.breadcrumb-dropdown {
+    font-size: inherit;
+    padding: 0.2rem;
+    white-space: nowrap;
+}
+#taxonomyBreadcrumb ul.breadcrumb-dropdown li {
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+}
+
+
+/*  TEMP gallery */
+#imgGallery {
+    padding: 15px;
+}
+#imgGallery .imageColumn {
+    padding-bottom: 20px;
+}
+#imgGallery .taxonImage img {
+    width: 210px;
+    height: 150px;
+}
+#imgGallery .vertical-align-img-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#imgGallery .thumbnail {
+    min-width: 220px;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.2rem;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#imgGallery .thumbnail, .img-thumbnail {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+}
+
+
+
+/* TEMP MEGA MENU */
+/* MEGA MENU STYLE
+********************************/
+.mega-menu {
+    padding: 10px 0px !important;
+    width: 540px;
+    border-radius: 0;
+    margin-top: 0px;
+}
+.mega-menu li {
+    display: inline-block;
+    float: left;
+    font-size: 0.94rem;
+    padding: 3px 0px;
+}
+.mega-menu li.mega-menu-column {
+    margin-right: 20px;
+    width: 150px;
+}
+.mega-menu .nav-header {
+    padding: 0 !important;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.mega-menu img {
+    padding-bottom: 10px;
+}
