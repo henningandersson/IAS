@@ -11,13 +11,13 @@ import { TaxonService } from './services';
 
 // Components
 import { AppComponent } from './app.component';
-import { HomeComponent, CardComponent } from './components';
+import { ReportComponent, CardComponent } from './components';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    ReportComponent,
     CardComponent,
     // Pipes
     FilterPipe,
