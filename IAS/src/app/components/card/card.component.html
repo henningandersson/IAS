@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-header">
+    <h5 class="mb-0">
+      <div (click)="IsCollapsed = !IsCollapsed" style="cursor: pointer;">
+        <span [ngClass]="IsCollapsed ? 'fa fa-chevron-down' : 'fa fa-chevron-right'"></span>
+      </div>
+    </h5>
+  </div>
+  <div class="card-body" *ngIf="IsCollapsed">
+    <ng-content></ng-content>
+  </div>
+</div>

@@ -6,18 +6,19 @@ import { AppRoutingModule } from './app-routing.module';
 // Filter
 import { FilterPipe, OrderByPipe } from './pipes';
 
-//Services
+// Services
 import { TaxonService } from './services';
 
 // Components
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components';
+import { HomeComponent, CardComponent } from './components';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    CardComponent,
     // Pipes
     FilterPipe,
     OrderByPipe
